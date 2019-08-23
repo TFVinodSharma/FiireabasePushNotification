@@ -1,0 +1,9 @@
+<resources>
+
+    <string name="app_name">FiireabasePushNotification</string>
+    <string name="msg_subscribed">msg_subscribed</string>
+    <string name="msg_subscribe_failed">msg_subscribe_failed</string>
+
+
+
+</resources>

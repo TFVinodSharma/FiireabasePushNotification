@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "9654356573",
+    "firebase_url": "https://fiireabasepushnotification.firebaseio.com",
+    "project_id": "fiireabasepushnotification",
+    "storage_bucket": "fiireabasepushnotification.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:9654356573:android:c05a5c6221b7bd7c",
+        "android_client_info": {
+          "package_name": "vinod.learning.com.fiireabasepushnotification"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "9654356573-ho3huia5u075h63ig9g1l7s34cdv2meq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "vinod.learning.com.fiireabasepushnotification",
+            "certificate_hash": "96217088637d3207e93d253f54a572e240109b50"
+          }
+        },
+        {
+          "client_id": "9654356573-u4r5ckfgp1k9v1520rpeop22tp3e0gdc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCU4Myfesjr0Zp75bk0lkdgK3iCxH9Z3Qk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "9654356573-u4r5ckfgp1k9v1520rpeop22tp3e0gdc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
