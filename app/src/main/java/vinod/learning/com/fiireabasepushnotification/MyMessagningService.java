@@ -14,10 +14,10 @@ public class MyMessagningService extends FirebaseMessagingService {
     public void onMessageReceived(@NonNull RemoteMessage remoteMessage) {
         super.onMessageReceived(remoteMessage);
 
-        showNotification(remoteMessage.getNotification().getTitle(),remoteMessage.getNotification().getBody());
+        showNotification(remoteMessage.getNotification().getBody(),remoteMessage.getNotification().getTitle());
     }
 
-    public void showNotification(String title,String message)
+    public void showNotification(String message,String title)
     {
         NotificationCompat.Builder builder=new NotificationCompat.Builder(this,"MyNotification")
                 .setContentTitle(title)

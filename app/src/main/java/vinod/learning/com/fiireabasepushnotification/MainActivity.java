@@ -22,14 +22,14 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        if(Build.VERSION.SDK_INT>=Build.VERSION_CODES.O)
+        /*if(Build.VERSION.SDK_INT>=Build.VERSION_CODES.O)
         {
             NotificationChannel channel=
                     new NotificationChannel("MyNotification","MyNotification",NotificationManager.IMPORTANCE_DEFAULT);
             NotificationManager manager=getSystemService(NotificationManager.class);
             manager.createNotificationChannel(channel);
-        }
-        FirebaseMessaging.getInstance().subscribeToTopic("general")
+        }*/
+        /*FirebaseMessaging.getInstance().subscribeToTopic("general")
                 .addOnCompleteListener(new OnCompleteListener<Void>() {
                     @Override
                     public void onComplete(@NonNull Task<Void> task) {
@@ -41,6 +41,6 @@ public class MainActivity extends AppCompatActivity {
                         Toast.makeText(MainActivity.this, msg, Toast.LENGTH_SHORT).show();
                     }
                 });
-
+*/
     }
 }
